@@ -5,7 +5,7 @@ Content-Type: application/json
 ###
 
 
-GET http://localhost:8080/student/5
+GET http://localhost:8080/student/1
 Content-Type: application/json
 
 ###
@@ -29,3 +29,13 @@ Content-Type: application/json
 
 DELETE http://localhost:8080/delete/3
 Content-Type: application/json
+
+### 
+PATCH http://localhost:8080/patch/3
+Content-Type: application/json
+
+{
+    "age":25,
+    "department":"CSE"
+}
+
